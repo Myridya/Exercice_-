@@ -24,7 +24,10 @@ get_header();
 				?>
 			</header><!-- .page-header -->
 
+			<section class="cours">
+
 			<?php
+			
 			// Start the Loop.
 			while ( have_posts() ) :
 				the_post();
@@ -39,13 +42,10 @@ get_header();
 				// End the loop.
 			endwhile;
 
-			// Previous/next page navigation.
-			twentynineteen_the_posts_navigation();
+			?>
+			</section>
 
-			// If no content, include the "No posts found" template.
-		else :
-			get_template_part( 'template-parts/content/content', 'none' );
-
+		<?php
 		endif;
 		?>
 		</main><!-- #main -->

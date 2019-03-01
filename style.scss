@@ -1,11 +1,12 @@
-/* normalize */
-    @import 'sass/normalize';
+/* Mixins */
+    @import 'sass/variables-site/variables-site';
+    @import 'sass/mixins/mixins' ;
 
 /* ------------------------------------------------------ */
 
 /* animations */
     @import 'sass/animation/anim-entete';
-    @import 'sass/animation/anim-acceuil';
+    @import 'sass/animation/anim-acceuil'; 
 
 /* ------------------------------------------------------ */
 
@@ -15,6 +16,6 @@
 /* ------------------------------------------------------ */   
 
 /* style */
-@import 'sass/site/cours/listeCours';
+@import 'sass/site/cours/listeCours'; 
 
 /* ------------------------------------------------------ */
