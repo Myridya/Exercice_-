@@ -114,7 +114,6 @@
 .cours {
   display: -ms-grid;
   display: grid;
-  grid-gap: 1em;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
 }
