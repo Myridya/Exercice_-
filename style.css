@@ -119,6 +119,10 @@
       grid-template-columns: 1fr;
 }
 
+.entry-title {
+  font-size: 1.2em;
+}
+
 @media only screen and (min-width: 600px) {
   .cours {
     -ms-grid-columns: 1fr 1fr;
